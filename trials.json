@@ -1,0 +1,1632 @@
+{
+ "study_id": "cycledrift_v2",
+ "seed": 2027,
+ "methods": [
+  "cycledrift",
+  "cyclediff",
+  "cyclegan",
+  "cyclegan_turbo"
+ ],
+ "trials": [
+  {
+   "trial_id": "cat2dog_00",
+   "task": "cat2dog",
+   "source": "cat",
+   "target": "dog",
+   "input": "stimuli/cat2dog/00/input.jpg",
+   "pair": [
+    "cycledrift",
+    "cyclegan"
+   ],
+   "outputs": {
+    "cycledrift": "stimuli/cat2dog/00/cycledrift.jpg",
+    "cyclegan": "stimuli/cat2dog/00/cyclegan.jpg"
+   }
+  },
+  {
+   "trial_id": "cat2dog_01",
+   "task": "cat2dog",
+   "source": "cat",
+   "target": "dog",
+   "input": "stimuli/cat2dog/01/input.jpg",
+   "pair": [
+    "cycledrift",
+    "cyclediff"
+   ],
+   "outputs": {
+    "cycledrift": "stimuli/cat2dog/01/cycledrift.jpg",
+    "cyclediff": "stimuli/cat2dog/01/cyclediff.jpg"
+   }
+  },
+  {
+   "trial_id": "cat2dog_02",
+   "task": "cat2dog",
+   "source": "cat",
+   "target": "dog",
+   "input": "stimuli/cat2dog/02/input.jpg",
+   "pair": [
+    "cycledrift",
+    "cyclegan_turbo"
+   ],
+   "outputs": {
+    "cycledrift": "stimuli/cat2dog/02/cycledrift.jpg",
+    "cyclegan_turbo": "stimuli/cat2dog/02/cyclegan_turbo.jpg"
+   }
+  },
+  {
+   "trial_id": "cat2dog_03",
+   "task": "cat2dog",
+   "source": "cat",
+   "target": "dog",
+   "input": "stimuli/cat2dog/03/input.jpg",
+   "pair": [
+    "cyclegan",
+    "cyclegan_turbo"
+   ],
+   "outputs": {
+    "cyclegan": "stimuli/cat2dog/03/cyclegan.jpg",
+    "cyclegan_turbo": "stimuli/cat2dog/03/cyclegan_turbo.jpg"
+   }
+  },
+  {
+   "trial_id": "cat2dog_04",
+   "task": "cat2dog",
+   "source": "cat",
+   "target": "dog",
+   "input": "stimuli/cat2dog/04/input.jpg",
+   "pair": [
+    "cyclediff",
+    "cyclegan_turbo"
+   ],
+   "outputs": {
+    "cyclediff": "stimuli/cat2dog/04/cyclediff.jpg",
+    "cyclegan_turbo": "stimuli/cat2dog/04/cyclegan_turbo.jpg"
+   }
+  },
+  {
+   "trial_id": "cat2dog_05",
+   "task": "cat2dog",
+   "source": "cat",
+   "target": "dog",
+   "input": "stimuli/cat2dog/05/input.jpg",
+   "pair": [
+    "cyclediff",
+    "cyclegan_turbo"
+   ],
+   "outputs": {
+    "cyclediff": "stimuli/cat2dog/05/cyclediff.jpg",
+    "cyclegan_turbo": "stimuli/cat2dog/05/cyclegan_turbo.jpg"
+   }
+  },
+  {
+   "trial_id": "cat2dog_06",
+   "task": "cat2dog",
+   "source": "cat",
+   "target": "dog",
+   "input": "stimuli/cat2dog/06/input.jpg",
+   "pair": [
+    "cyclegan",
+    "cyclegan_turbo"
+   ],
+   "outputs": {
+    "cyclegan": "stimuli/cat2dog/06/cyclegan.jpg",
+    "cyclegan_turbo": "stimuli/cat2dog/06/cyclegan_turbo.jpg"
+   }
+  },
+  {
+   "trial_id": "cat2dog_07",
+   "task": "cat2dog",
+   "source": "cat",
+   "target": "dog",
+   "input": "stimuli/cat2dog/07/input.jpg",
+   "pair": [
+    "cycledrift",
+    "cyclegan_turbo"
+   ],
+   "outputs": {
+    "cycledrift": "stimuli/cat2dog/07/cycledrift.jpg",
+    "cyclegan_turbo": "stimuli/cat2dog/07/cyclegan_turbo.jpg"
+   }
+  },
+  {
+   "trial_id": "cat2dog_08",
+   "task": "cat2dog",
+   "source": "cat",
+   "target": "dog",
+   "input": "stimuli/cat2dog/08/input.jpg",
+   "pair": [
+    "cyclegan",
+    "cyclegan_turbo"
+   ],
+   "outputs": {
+    "cyclegan": "stimuli/cat2dog/08/cyclegan.jpg",
+    "cyclegan_turbo": "stimuli/cat2dog/08/cyclegan_turbo.jpg"
+   }
+  },
+  {
+   "trial_id": "cat2dog_09",
+   "task": "cat2dog",
+   "source": "cat",
+   "target": "dog",
+   "input": "stimuli/cat2dog/09/input.jpg",
+   "pair": [
+    "cyclediff",
+    "cyclegan"
+   ],
+   "outputs": {
+    "cyclediff": "stimuli/cat2dog/09/cyclediff.jpg",
+    "cyclegan": "stimuli/cat2dog/09/cyclegan.jpg"
+   }
+  },
+  {
+   "trial_id": "cat2dog_10",
+   "task": "cat2dog",
+   "source": "cat",
+   "target": "dog",
+   "input": "stimuli/cat2dog/10/input.jpg",
+   "pair": [
+    "cycledrift",
+    "cyclediff"
+   ],
+   "outputs": {
+    "cycledrift": "stimuli/cat2dog/10/cycledrift.jpg",
+    "cyclediff": "stimuli/cat2dog/10/cyclediff.jpg"
+   }
+  },
+  {
+   "trial_id": "cat2dog_11",
+   "task": "cat2dog",
+   "source": "cat",
+   "target": "dog",
+   "input": "stimuli/cat2dog/11/input.jpg",
+   "pair": [
+    "cycledrift",
+    "cyclegan"
+   ],
+   "outputs": {
+    "cycledrift": "stimuli/cat2dog/11/cycledrift.jpg",
+    "cyclegan": "stimuli/cat2dog/11/cyclegan.jpg"
+   }
+  },
+  {
+   "trial_id": "cat2dog_12",
+   "task": "cat2dog",
+   "source": "cat",
+   "target": "dog",
+   "input": "stimuli/cat2dog/12/input.jpg",
+   "pair": [
+    "cycledrift",
+    "cyclegan"
+   ],
+   "outputs": {
+    "cycledrift": "stimuli/cat2dog/12/cycledrift.jpg",
+    "cyclegan": "stimuli/cat2dog/12/cyclegan.jpg"
+   }
+  },
+  {
+   "trial_id": "cat2dog_13",
+   "task": "cat2dog",
+   "source": "cat",
+   "target": "dog",
+   "input": "stimuli/cat2dog/13/input.jpg",
+   "pair": [
+    "cyclediff",
+    "cyclegan_turbo"
+   ],
+   "outputs": {
+    "cyclediff": "stimuli/cat2dog/13/cyclediff.jpg",
+    "cyclegan_turbo": "stimuli/cat2dog/13/cyclegan_turbo.jpg"
+   }
+  },
+  {
+   "trial_id": "cat2dog_14",
+   "task": "cat2dog",
+   "source": "cat",
+   "target": "dog",
+   "input": "stimuli/cat2dog/14/input.jpg",
+   "pair": [
+    "cyclediff",
+    "cyclegan"
+   ],
+   "outputs": {
+    "cyclediff": "stimuli/cat2dog/14/cyclediff.jpg",
+    "cyclegan": "stimuli/cat2dog/14/cyclegan.jpg"
+   }
+  },
+  {
+   "trial_id": "cat2dog_15",
+   "task": "cat2dog",
+   "source": "cat",
+   "target": "dog",
+   "input": "stimuli/cat2dog/15/input.jpg",
+   "pair": [
+    "cycledrift",
+    "cyclediff"
+   ],
+   "outputs": {
+    "cycledrift": "stimuli/cat2dog/15/cycledrift.jpg",
+    "cyclediff": "stimuli/cat2dog/15/cyclediff.jpg"
+   }
+  },
+  {
+   "trial_id": "cat2dog_16",
+   "task": "cat2dog",
+   "source": "cat",
+   "target": "dog",
+   "input": "stimuli/cat2dog/16/input.jpg",
+   "pair": [
+    "cyclediff",
+    "cyclegan"
+   ],
+   "outputs": {
+    "cyclediff": "stimuli/cat2dog/16/cyclediff.jpg",
+    "cyclegan": "stimuli/cat2dog/16/cyclegan.jpg"
+   }
+  },
+  {
+   "trial_id": "cat2dog_17",
+   "task": "cat2dog",
+   "source": "cat",
+   "target": "dog",
+   "input": "stimuli/cat2dog/17/input.jpg",
+   "pair": [
+    "cycledrift",
+    "cyclegan_turbo"
+   ],
+   "outputs": {
+    "cycledrift": "stimuli/cat2dog/17/cycledrift.jpg",
+    "cyclegan_turbo": "stimuli/cat2dog/17/cyclegan_turbo.jpg"
+   }
+  },
+  {
+   "trial_id": "dog2cat_00",
+   "task": "dog2cat",
+   "source": "dog",
+   "target": "cat",
+   "input": "stimuli/dog2cat/00/input.jpg",
+   "pair": [
+    "cyclegan",
+    "cyclegan_turbo"
+   ],
+   "outputs": {
+    "cyclegan": "stimuli/dog2cat/00/cyclegan.jpg",
+    "cyclegan_turbo": "stimuli/dog2cat/00/cyclegan_turbo.jpg"
+   }
+  },
+  {
+   "trial_id": "dog2cat_01",
+   "task": "dog2cat",
+   "source": "dog",
+   "target": "cat",
+   "input": "stimuli/dog2cat/01/input.jpg",
+   "pair": [
+    "cycledrift",
+    "cyclegan"
+   ],
+   "outputs": {
+    "cycledrift": "stimuli/dog2cat/01/cycledrift.jpg",
+    "cyclegan": "stimuli/dog2cat/01/cyclegan.jpg"
+   }
+  },
+  {
+   "trial_id": "dog2cat_02",
+   "task": "dog2cat",
+   "source": "dog",
+   "target": "cat",
+   "input": "stimuli/dog2cat/02/input.jpg",
+   "pair": [
+    "cycledrift",
+    "cyclegan"
+   ],
+   "outputs": {
+    "cycledrift": "stimuli/dog2cat/02/cycledrift.jpg",
+    "cyclegan": "stimuli/dog2cat/02/cyclegan.jpg"
+   }
+  },
+  {
+   "trial_id": "dog2cat_03",
+   "task": "dog2cat",
+   "source": "dog",
+   "target": "cat",
+   "input": "stimuli/dog2cat/03/input.jpg",
+   "pair": [
+    "cycledrift",
+    "cyclediff"
+   ],
+   "outputs": {
+    "cycledrift": "stimuli/dog2cat/03/cycledrift.jpg",
+    "cyclediff": "stimuli/dog2cat/03/cyclediff.jpg"
+   }
+  },
+  {
+   "trial_id": "dog2cat_04",
+   "task": "dog2cat",
+   "source": "dog",
+   "target": "cat",
+   "input": "stimuli/dog2cat/04/input.jpg",
+   "pair": [
+    "cycledrift",
+    "cyclediff"
+   ],
+   "outputs": {
+    "cycledrift": "stimuli/dog2cat/04/cycledrift.jpg",
+    "cyclediff": "stimuli/dog2cat/04/cyclediff.jpg"
+   }
+  },
+  {
+   "trial_id": "dog2cat_05",
+   "task": "dog2cat",
+   "source": "dog",
+   "target": "cat",
+   "input": "stimuli/dog2cat/05/input.jpg",
+   "pair": [
+    "cyclediff",
+    "cyclegan_turbo"
+   ],
+   "outputs": {
+    "cyclediff": "stimuli/dog2cat/05/cyclediff.jpg",
+    "cyclegan_turbo": "stimuli/dog2cat/05/cyclegan_turbo.jpg"
+   }
+  },
+  {
+   "trial_id": "dog2cat_06",
+   "task": "dog2cat",
+   "source": "dog",
+   "target": "cat",
+   "input": "stimuli/dog2cat/06/input.jpg",
+   "pair": [
+    "cyclediff",
+    "cyclegan_turbo"
+   ],
+   "outputs": {
+    "cyclediff": "stimuli/dog2cat/06/cyclediff.jpg",
+    "cyclegan_turbo": "stimuli/dog2cat/06/cyclegan_turbo.jpg"
+   }
+  },
+  {
+   "trial_id": "dog2cat_07",
+   "task": "dog2cat",
+   "source": "dog",
+   "target": "cat",
+   "input": "stimuli/dog2cat/07/input.jpg",
+   "pair": [
+    "cyclediff",
+    "cyclegan"
+   ],
+   "outputs": {
+    "cyclediff": "stimuli/dog2cat/07/cyclediff.jpg",
+    "cyclegan": "stimuli/dog2cat/07/cyclegan.jpg"
+   }
+  },
+  {
+   "trial_id": "dog2cat_08",
+   "task": "dog2cat",
+   "source": "dog",
+   "target": "cat",
+   "input": "stimuli/dog2cat/08/input.jpg",
+   "pair": [
+    "cyclediff",
+    "cyclegan"
+   ],
+   "outputs": {
+    "cyclediff": "stimuli/dog2cat/08/cyclediff.jpg",
+    "cyclegan": "stimuli/dog2cat/08/cyclegan.jpg"
+   }
+  },
+  {
+   "trial_id": "dog2cat_09",
+   "task": "dog2cat",
+   "source": "dog",
+   "target": "cat",
+   "input": "stimuli/dog2cat/09/input.jpg",
+   "pair": [
+    "cyclegan",
+    "cyclegan_turbo"
+   ],
+   "outputs": {
+    "cyclegan": "stimuli/dog2cat/09/cyclegan.jpg",
+    "cyclegan_turbo": "stimuli/dog2cat/09/cyclegan_turbo.jpg"
+   }
+  },
+  {
+   "trial_id": "dog2cat_10",
+   "task": "dog2cat",
+   "source": "dog",
+   "target": "cat",
+   "input": "stimuli/dog2cat/10/input.jpg",
+   "pair": [
+    "cyclediff",
+    "cyclegan_turbo"
+   ],
+   "outputs": {
+    "cyclediff": "stimuli/dog2cat/10/cyclediff.jpg",
+    "cyclegan_turbo": "stimuli/dog2cat/10/cyclegan_turbo.jpg"
+   }
+  },
+  {
+   "trial_id": "dog2cat_11",
+   "task": "dog2cat",
+   "source": "dog",
+   "target": "cat",
+   "input": "stimuli/dog2cat/11/input.jpg",
+   "pair": [
+    "cyclegan",
+    "cyclegan_turbo"
+   ],
+   "outputs": {
+    "cyclegan": "stimuli/dog2cat/11/cyclegan.jpg",
+    "cyclegan_turbo": "stimuli/dog2cat/11/cyclegan_turbo.jpg"
+   }
+  },
+  {
+   "trial_id": "dog2cat_12",
+   "task": "dog2cat",
+   "source": "dog",
+   "target": "cat",
+   "input": "stimuli/dog2cat/12/input.jpg",
+   "pair": [
+    "cycledrift",
+    "cyclegan_turbo"
+   ],
+   "outputs": {
+    "cycledrift": "stimuli/dog2cat/12/cycledrift.jpg",
+    "cyclegan_turbo": "stimuli/dog2cat/12/cyclegan_turbo.jpg"
+   }
+  },
+  {
+   "trial_id": "dog2cat_13",
+   "task": "dog2cat",
+   "source": "dog",
+   "target": "cat",
+   "input": "stimuli/dog2cat/13/input.jpg",
+   "pair": [
+    "cycledrift",
+    "cyclegan"
+   ],
+   "outputs": {
+    "cycledrift": "stimuli/dog2cat/13/cycledrift.jpg",
+    "cyclegan": "stimuli/dog2cat/13/cyclegan.jpg"
+   }
+  },
+  {
+   "trial_id": "dog2cat_14",
+   "task": "dog2cat",
+   "source": "dog",
+   "target": "cat",
+   "input": "stimuli/dog2cat/14/input.jpg",
+   "pair": [
+    "cycledrift",
+    "cyclegan_turbo"
+   ],
+   "outputs": {
+    "cycledrift": "stimuli/dog2cat/14/cycledrift.jpg",
+    "cyclegan_turbo": "stimuli/dog2cat/14/cyclegan_turbo.jpg"
+   }
+  },
+  {
+   "trial_id": "dog2cat_15",
+   "task": "dog2cat",
+   "source": "dog",
+   "target": "cat",
+   "input": "stimuli/dog2cat/15/input.jpg",
+   "pair": [
+    "cyclediff",
+    "cyclegan"
+   ],
+   "outputs": {
+    "cyclediff": "stimuli/dog2cat/15/cyclediff.jpg",
+    "cyclegan": "stimuli/dog2cat/15/cyclegan.jpg"
+   }
+  },
+  {
+   "trial_id": "dog2cat_16",
+   "task": "dog2cat",
+   "source": "dog",
+   "target": "cat",
+   "input": "stimuli/dog2cat/16/input.jpg",
+   "pair": [
+    "cycledrift",
+    "cyclediff"
+   ],
+   "outputs": {
+    "cycledrift": "stimuli/dog2cat/16/cycledrift.jpg",
+    "cyclediff": "stimuli/dog2cat/16/cyclediff.jpg"
+   }
+  },
+  {
+   "trial_id": "dog2cat_17",
+   "task": "dog2cat",
+   "source": "dog",
+   "target": "cat",
+   "input": "stimuli/dog2cat/17/input.jpg",
+   "pair": [
+    "cycledrift",
+    "cyclegan_turbo"
+   ],
+   "outputs": {
+    "cycledrift": "stimuli/dog2cat/17/cycledrift.jpg",
+    "cyclegan_turbo": "stimuli/dog2cat/17/cyclegan_turbo.jpg"
+   }
+  },
+  {
+   "trial_id": "dog2wild_00",
+   "task": "dog2wild",
+   "source": "dog",
+   "target": "wild animal",
+   "input": "stimuli/dog2wild/00/input.jpg",
+   "pair": [
+    "cyclediff",
+    "cyclegan_turbo"
+   ],
+   "outputs": {
+    "cyclediff": "stimuli/dog2wild/00/cyclediff.jpg",
+    "cyclegan_turbo": "stimuli/dog2wild/00/cyclegan_turbo.jpg"
+   }
+  },
+  {
+   "trial_id": "dog2wild_01",
+   "task": "dog2wild",
+   "source": "dog",
+   "target": "wild animal",
+   "input": "stimuli/dog2wild/01/input.jpg",
+   "pair": [
+    "cycledrift",
+    "cyclediff"
+   ],
+   "outputs": {
+    "cycledrift": "stimuli/dog2wild/01/cycledrift.jpg",
+    "cyclediff": "stimuli/dog2wild/01/cyclediff.jpg"
+   }
+  },
+  {
+   "trial_id": "dog2wild_02",
+   "task": "dog2wild",
+   "source": "dog",
+   "target": "wild animal",
+   "input": "stimuli/dog2wild/02/input.jpg",
+   "pair": [
+    "cyclediff",
+    "cyclegan"
+   ],
+   "outputs": {
+    "cyclediff": "stimuli/dog2wild/02/cyclediff.jpg",
+    "cyclegan": "stimuli/dog2wild/02/cyclegan.jpg"
+   }
+  },
+  {
+   "trial_id": "dog2wild_03",
+   "task": "dog2wild",
+   "source": "dog",
+   "target": "wild animal",
+   "input": "stimuli/dog2wild/03/input.jpg",
+   "pair": [
+    "cycledrift",
+    "cyclegan_turbo"
+   ],
+   "outputs": {
+    "cycledrift": "stimuli/dog2wild/03/cycledrift.jpg",
+    "cyclegan_turbo": "stimuli/dog2wild/03/cyclegan_turbo.jpg"
+   }
+  },
+  {
+   "trial_id": "dog2wild_04",
+   "task": "dog2wild",
+   "source": "dog",
+   "target": "wild animal",
+   "input": "stimuli/dog2wild/04/input.jpg",
+   "pair": [
+    "cycledrift",
+    "cyclegan_turbo"
+   ],
+   "outputs": {
+    "cycledrift": "stimuli/dog2wild/04/cycledrift.jpg",
+    "cyclegan_turbo": "stimuli/dog2wild/04/cyclegan_turbo.jpg"
+   }
+  },
+  {
+   "trial_id": "dog2wild_05",
+   "task": "dog2wild",
+   "source": "dog",
+   "target": "wild animal",
+   "input": "stimuli/dog2wild/05/input.jpg",
+   "pair": [
+    "cycledrift",
+    "cyclegan"
+   ],
+   "outputs": {
+    "cycledrift": "stimuli/dog2wild/05/cycledrift.jpg",
+    "cyclegan": "stimuli/dog2wild/05/cyclegan.jpg"
+   }
+  },
+  {
+   "trial_id": "dog2wild_06",
+   "task": "dog2wild",
+   "source": "dog",
+   "target": "wild animal",
+   "input": "stimuli/dog2wild/06/input.jpg",
+   "pair": [
+    "cycledrift",
+    "cyclegan_turbo"
+   ],
+   "outputs": {
+    "cycledrift": "stimuli/dog2wild/06/cycledrift.jpg",
+    "cyclegan_turbo": "stimuli/dog2wild/06/cyclegan_turbo.jpg"
+   }
+  },
+  {
+   "trial_id": "dog2wild_07",
+   "task": "dog2wild",
+   "source": "dog",
+   "target": "wild animal",
+   "input": "stimuli/dog2wild/07/input.jpg",
+   "pair": [
+    "cyclegan",
+    "cyclegan_turbo"
+   ],
+   "outputs": {
+    "cyclegan": "stimuli/dog2wild/07/cyclegan.jpg",
+    "cyclegan_turbo": "stimuli/dog2wild/07/cyclegan_turbo.jpg"
+   }
+  },
+  {
+   "trial_id": "dog2wild_08",
+   "task": "dog2wild",
+   "source": "dog",
+   "target": "wild animal",
+   "input": "stimuli/dog2wild/08/input.jpg",
+   "pair": [
+    "cyclediff",
+    "cyclegan"
+   ],
+   "outputs": {
+    "cyclediff": "stimuli/dog2wild/08/cyclediff.jpg",
+    "cyclegan": "stimuli/dog2wild/08/cyclegan.jpg"
+   }
+  },
+  {
+   "trial_id": "dog2wild_09",
+   "task": "dog2wild",
+   "source": "dog",
+   "target": "wild animal",
+   "input": "stimuli/dog2wild/09/input.jpg",
+   "pair": [
+    "cycledrift",
+    "cyclegan"
+   ],
+   "outputs": {
+    "cycledrift": "stimuli/dog2wild/09/cycledrift.jpg",
+    "cyclegan": "stimuli/dog2wild/09/cyclegan.jpg"
+   }
+  },
+  {
+   "trial_id": "dog2wild_10",
+   "task": "dog2wild",
+   "source": "dog",
+   "target": "wild animal",
+   "input": "stimuli/dog2wild/10/input.jpg",
+   "pair": [
+    "cyclegan",
+    "cyclegan_turbo"
+   ],
+   "outputs": {
+    "cyclegan": "stimuli/dog2wild/10/cyclegan.jpg",
+    "cyclegan_turbo": "stimuli/dog2wild/10/cyclegan_turbo.jpg"
+   }
+  },
+  {
+   "trial_id": "dog2wild_11",
+   "task": "dog2wild",
+   "source": "dog",
+   "target": "wild animal",
+   "input": "stimuli/dog2wild/11/input.jpg",
+   "pair": [
+    "cyclediff",
+    "cyclegan_turbo"
+   ],
+   "outputs": {
+    "cyclediff": "stimuli/dog2wild/11/cyclediff.jpg",
+    "cyclegan_turbo": "stimuli/dog2wild/11/cyclegan_turbo.jpg"
+   }
+  },
+  {
+   "trial_id": "dog2wild_12",
+   "task": "dog2wild",
+   "source": "dog",
+   "target": "wild animal",
+   "input": "stimuli/dog2wild/12/input.jpg",
+   "pair": [
+    "cyclegan",
+    "cyclegan_turbo"
+   ],
+   "outputs": {
+    "cyclegan": "stimuli/dog2wild/12/cyclegan.jpg",
+    "cyclegan_turbo": "stimuli/dog2wild/12/cyclegan_turbo.jpg"
+   }
+  },
+  {
+   "trial_id": "dog2wild_13",
+   "task": "dog2wild",
+   "source": "dog",
+   "target": "wild animal",
+   "input": "stimuli/dog2wild/13/input.jpg",
+   "pair": [
+    "cycledrift",
+    "cyclediff"
+   ],
+   "outputs": {
+    "cycledrift": "stimuli/dog2wild/13/cycledrift.jpg",
+    "cyclediff": "stimuli/dog2wild/13/cyclediff.jpg"
+   }
+  },
+  {
+   "trial_id": "dog2wild_14",
+   "task": "dog2wild",
+   "source": "dog",
+   "target": "wild animal",
+   "input": "stimuli/dog2wild/14/input.jpg",
+   "pair": [
+    "cycledrift",
+    "cyclediff"
+   ],
+   "outputs": {
+    "cycledrift": "stimuli/dog2wild/14/cycledrift.jpg",
+    "cyclediff": "stimuli/dog2wild/14/cyclediff.jpg"
+   }
+  },
+  {
+   "trial_id": "dog2wild_15",
+   "task": "dog2wild",
+   "source": "dog",
+   "target": "wild animal",
+   "input": "stimuli/dog2wild/15/input.jpg",
+   "pair": [
+    "cyclediff",
+    "cyclegan_turbo"
+   ],
+   "outputs": {
+    "cyclediff": "stimuli/dog2wild/15/cyclediff.jpg",
+    "cyclegan_turbo": "stimuli/dog2wild/15/cyclegan_turbo.jpg"
+   }
+  },
+  {
+   "trial_id": "dog2wild_16",
+   "task": "dog2wild",
+   "source": "dog",
+   "target": "wild animal",
+   "input": "stimuli/dog2wild/16/input.jpg",
+   "pair": [
+    "cyclediff",
+    "cyclegan"
+   ],
+   "outputs": {
+    "cyclediff": "stimuli/dog2wild/16/cyclediff.jpg",
+    "cyclegan": "stimuli/dog2wild/16/cyclegan.jpg"
+   }
+  },
+  {
+   "trial_id": "dog2wild_17",
+   "task": "dog2wild",
+   "source": "dog",
+   "target": "wild animal",
+   "input": "stimuli/dog2wild/17/input.jpg",
+   "pair": [
+    "cycledrift",
+    "cyclegan"
+   ],
+   "outputs": {
+    "cycledrift": "stimuli/dog2wild/17/cycledrift.jpg",
+    "cyclegan": "stimuli/dog2wild/17/cyclegan.jpg"
+   }
+  },
+  {
+   "trial_id": "wild2dog_00",
+   "task": "wild2dog",
+   "source": "wild animal",
+   "target": "dog",
+   "input": "stimuli/wild2dog/00/input.jpg",
+   "pair": [
+    "cycledrift",
+    "cyclediff"
+   ],
+   "outputs": {
+    "cycledrift": "stimuli/wild2dog/00/cycledrift.jpg",
+    "cyclediff": "stimuli/wild2dog/00/cyclediff.jpg"
+   }
+  },
+  {
+   "trial_id": "wild2dog_01",
+   "task": "wild2dog",
+   "source": "wild animal",
+   "target": "dog",
+   "input": "stimuli/wild2dog/01/input.jpg",
+   "pair": [
+    "cycledrift",
+    "cyclegan_turbo"
+   ],
+   "outputs": {
+    "cycledrift": "stimuli/wild2dog/01/cycledrift.jpg",
+    "cyclegan_turbo": "stimuli/wild2dog/01/cyclegan_turbo.jpg"
+   }
+  },
+  {
+   "trial_id": "wild2dog_02",
+   "task": "wild2dog",
+   "source": "wild animal",
+   "target": "dog",
+   "input": "stimuli/wild2dog/02/input.jpg",
+   "pair": [
+    "cyclediff",
+    "cyclegan"
+   ],
+   "outputs": {
+    "cyclediff": "stimuli/wild2dog/02/cyclediff.jpg",
+    "cyclegan": "stimuli/wild2dog/02/cyclegan.jpg"
+   }
+  },
+  {
+   "trial_id": "wild2dog_03",
+   "task": "wild2dog",
+   "source": "wild animal",
+   "target": "dog",
+   "input": "stimuli/wild2dog/03/input.jpg",
+   "pair": [
+    "cyclegan",
+    "cyclegan_turbo"
+   ],
+   "outputs": {
+    "cyclegan": "stimuli/wild2dog/03/cyclegan.jpg",
+    "cyclegan_turbo": "stimuli/wild2dog/03/cyclegan_turbo.jpg"
+   }
+  },
+  {
+   "trial_id": "wild2dog_04",
+   "task": "wild2dog",
+   "source": "wild animal",
+   "target": "dog",
+   "input": "stimuli/wild2dog/04/input.jpg",
+   "pair": [
+    "cyclediff",
+    "cyclegan"
+   ],
+   "outputs": {
+    "cyclediff": "stimuli/wild2dog/04/cyclediff.jpg",
+    "cyclegan": "stimuli/wild2dog/04/cyclegan.jpg"
+   }
+  },
+  {
+   "trial_id": "wild2dog_05",
+   "task": "wild2dog",
+   "source": "wild animal",
+   "target": "dog",
+   "input": "stimuli/wild2dog/05/input.jpg",
+   "pair": [
+    "cyclediff",
+    "cyclegan_turbo"
+   ],
+   "outputs": {
+    "cyclediff": "stimuli/wild2dog/05/cyclediff.jpg",
+    "cyclegan_turbo": "stimuli/wild2dog/05/cyclegan_turbo.jpg"
+   }
+  },
+  {
+   "trial_id": "wild2dog_06",
+   "task": "wild2dog",
+   "source": "wild animal",
+   "target": "dog",
+   "input": "stimuli/wild2dog/06/input.jpg",
+   "pair": [
+    "cycledrift",
+    "cyclegan"
+   ],
+   "outputs": {
+    "cycledrift": "stimuli/wild2dog/06/cycledrift.jpg",
+    "cyclegan": "stimuli/wild2dog/06/cyclegan.jpg"
+   }
+  },
+  {
+   "trial_id": "wild2dog_07",
+   "task": "wild2dog",
+   "source": "wild animal",
+   "target": "dog",
+   "input": "stimuli/wild2dog/07/input.jpg",
+   "pair": [
+    "cyclegan",
+    "cyclegan_turbo"
+   ],
+   "outputs": {
+    "cyclegan": "stimuli/wild2dog/07/cyclegan.jpg",
+    "cyclegan_turbo": "stimuli/wild2dog/07/cyclegan_turbo.jpg"
+   }
+  },
+  {
+   "trial_id": "wild2dog_08",
+   "task": "wild2dog",
+   "source": "wild animal",
+   "target": "dog",
+   "input": "stimuli/wild2dog/08/input.jpg",
+   "pair": [
+    "cyclediff",
+    "cyclegan_turbo"
+   ],
+   "outputs": {
+    "cyclediff": "stimuli/wild2dog/08/cyclediff.jpg",
+    "cyclegan_turbo": "stimuli/wild2dog/08/cyclegan_turbo.jpg"
+   }
+  },
+  {
+   "trial_id": "wild2dog_09",
+   "task": "wild2dog",
+   "source": "wild animal",
+   "target": "dog",
+   "input": "stimuli/wild2dog/09/input.jpg",
+   "pair": [
+    "cycledrift",
+    "cyclediff"
+   ],
+   "outputs": {
+    "cycledrift": "stimuli/wild2dog/09/cycledrift.jpg",
+    "cyclediff": "stimuli/wild2dog/09/cyclediff.jpg"
+   }
+  },
+  {
+   "trial_id": "wild2dog_10",
+   "task": "wild2dog",
+   "source": "wild animal",
+   "target": "dog",
+   "input": "stimuli/wild2dog/10/input.jpg",
+   "pair": [
+    "cycledrift",
+    "cyclegan_turbo"
+   ],
+   "outputs": {
+    "cycledrift": "stimuli/wild2dog/10/cycledrift.jpg",
+    "cyclegan_turbo": "stimuli/wild2dog/10/cyclegan_turbo.jpg"
+   }
+  },
+  {
+   "trial_id": "wild2dog_11",
+   "task": "wild2dog",
+   "source": "wild animal",
+   "target": "dog",
+   "input": "stimuli/wild2dog/11/input.jpg",
+   "pair": [
+    "cyclegan",
+    "cyclegan_turbo"
+   ],
+   "outputs": {
+    "cyclegan": "stimuli/wild2dog/11/cyclegan.jpg",
+    "cyclegan_turbo": "stimuli/wild2dog/11/cyclegan_turbo.jpg"
+   }
+  },
+  {
+   "trial_id": "wild2dog_12",
+   "task": "wild2dog",
+   "source": "wild animal",
+   "target": "dog",
+   "input": "stimuli/wild2dog/12/input.jpg",
+   "pair": [
+    "cycledrift",
+    "cyclegan"
+   ],
+   "outputs": {
+    "cycledrift": "stimuli/wild2dog/12/cycledrift.jpg",
+    "cyclegan": "stimuli/wild2dog/12/cyclegan.jpg"
+   }
+  },
+  {
+   "trial_id": "wild2dog_13",
+   "task": "wild2dog",
+   "source": "wild animal",
+   "target": "dog",
+   "input": "stimuli/wild2dog/13/input.jpg",
+   "pair": [
+    "cycledrift",
+    "cyclediff"
+   ],
+   "outputs": {
+    "cycledrift": "stimuli/wild2dog/13/cycledrift.jpg",
+    "cyclediff": "stimuli/wild2dog/13/cyclediff.jpg"
+   }
+  },
+  {
+   "trial_id": "wild2dog_14",
+   "task": "wild2dog",
+   "source": "wild animal",
+   "target": "dog",
+   "input": "stimuli/wild2dog/14/input.jpg",
+   "pair": [
+    "cyclediff",
+    "cyclegan_turbo"
+   ],
+   "outputs": {
+    "cyclediff": "stimuli/wild2dog/14/cyclediff.jpg",
+    "cyclegan_turbo": "stimuli/wild2dog/14/cyclegan_turbo.jpg"
+   }
+  },
+  {
+   "trial_id": "wild2dog_15",
+   "task": "wild2dog",
+   "source": "wild animal",
+   "target": "dog",
+   "input": "stimuli/wild2dog/15/input.jpg",
+   "pair": [
+    "cycledrift",
+    "cyclegan"
+   ],
+   "outputs": {
+    "cycledrift": "stimuli/wild2dog/15/cycledrift.jpg",
+    "cyclegan": "stimuli/wild2dog/15/cyclegan.jpg"
+   }
+  },
+  {
+   "trial_id": "wild2dog_16",
+   "task": "wild2dog",
+   "source": "wild animal",
+   "target": "dog",
+   "input": "stimuli/wild2dog/16/input.jpg",
+   "pair": [
+    "cycledrift",
+    "cyclegan_turbo"
+   ],
+   "outputs": {
+    "cycledrift": "stimuli/wild2dog/16/cycledrift.jpg",
+    "cyclegan_turbo": "stimuli/wild2dog/16/cyclegan_turbo.jpg"
+   }
+  },
+  {
+   "trial_id": "wild2dog_17",
+   "task": "wild2dog",
+   "source": "wild animal",
+   "target": "dog",
+   "input": "stimuli/wild2dog/17/input.jpg",
+   "pair": [
+    "cyclediff",
+    "cyclegan"
+   ],
+   "outputs": {
+    "cyclediff": "stimuli/wild2dog/17/cyclediff.jpg",
+    "cyclegan": "stimuli/wild2dog/17/cyclegan.jpg"
+   }
+  },
+  {
+   "trial_id": "male2female_00",
+   "task": "male2female",
+   "source": "man",
+   "target": "woman",
+   "input": "stimuli/male2female/00/input.jpg",
+   "pair": [
+    "cycledrift",
+    "cyclediff"
+   ],
+   "outputs": {
+    "cycledrift": "stimuli/male2female/00/cycledrift.jpg",
+    "cyclediff": "stimuli/male2female/00/cyclediff.jpg"
+   }
+  },
+  {
+   "trial_id": "male2female_01",
+   "task": "male2female",
+   "source": "man",
+   "target": "woman",
+   "input": "stimuli/male2female/01/input.jpg",
+   "pair": [
+    "cycledrift",
+    "cyclegan_turbo"
+   ],
+   "outputs": {
+    "cycledrift": "stimuli/male2female/01/cycledrift.jpg",
+    "cyclegan_turbo": "stimuli/male2female/01/cyclegan_turbo.jpg"
+   }
+  },
+  {
+   "trial_id": "male2female_02",
+   "task": "male2female",
+   "source": "man",
+   "target": "woman",
+   "input": "stimuli/male2female/02/input.jpg",
+   "pair": [
+    "cycledrift",
+    "cyclediff"
+   ],
+   "outputs": {
+    "cycledrift": "stimuli/male2female/02/cycledrift.jpg",
+    "cyclediff": "stimuli/male2female/02/cyclediff.jpg"
+   }
+  },
+  {
+   "trial_id": "male2female_03",
+   "task": "male2female",
+   "source": "man",
+   "target": "woman",
+   "input": "stimuli/male2female/03/input.jpg",
+   "pair": [
+    "cyclediff",
+    "cyclegan"
+   ],
+   "outputs": {
+    "cyclediff": "stimuli/male2female/03/cyclediff.jpg",
+    "cyclegan": "stimuli/male2female/03/cyclegan.jpg"
+   }
+  },
+  {
+   "trial_id": "male2female_04",
+   "task": "male2female",
+   "source": "man",
+   "target": "woman",
+   "input": "stimuli/male2female/04/input.jpg",
+   "pair": [
+    "cycledrift",
+    "cyclegan_turbo"
+   ],
+   "outputs": {
+    "cycledrift": "stimuli/male2female/04/cycledrift.jpg",
+    "cyclegan_turbo": "stimuli/male2female/04/cyclegan_turbo.jpg"
+   }
+  },
+  {
+   "trial_id": "male2female_05",
+   "task": "male2female",
+   "source": "man",
+   "target": "woman",
+   "input": "stimuli/male2female/05/input.jpg",
+   "pair": [
+    "cyclediff",
+    "cyclegan"
+   ],
+   "outputs": {
+    "cyclediff": "stimuli/male2female/05/cyclediff.jpg",
+    "cyclegan": "stimuli/male2female/05/cyclegan.jpg"
+   }
+  },
+  {
+   "trial_id": "male2female_06",
+   "task": "male2female",
+   "source": "man",
+   "target": "woman",
+   "input": "stimuli/male2female/06/input.jpg",
+   "pair": [
+    "cycledrift",
+    "cyclediff"
+   ],
+   "outputs": {
+    "cycledrift": "stimuli/male2female/06/cycledrift.jpg",
+    "cyclediff": "stimuli/male2female/06/cyclediff.jpg"
+   }
+  },
+  {
+   "trial_id": "male2female_07",
+   "task": "male2female",
+   "source": "man",
+   "target": "woman",
+   "input": "stimuli/male2female/07/input.jpg",
+   "pair": [
+    "cycledrift",
+    "cyclegan_turbo"
+   ],
+   "outputs": {
+    "cycledrift": "stimuli/male2female/07/cycledrift.jpg",
+    "cyclegan_turbo": "stimuli/male2female/07/cyclegan_turbo.jpg"
+   }
+  },
+  {
+   "trial_id": "male2female_08",
+   "task": "male2female",
+   "source": "man",
+   "target": "woman",
+   "input": "stimuli/male2female/08/input.jpg",
+   "pair": [
+    "cyclegan",
+    "cyclegan_turbo"
+   ],
+   "outputs": {
+    "cyclegan": "stimuli/male2female/08/cyclegan.jpg",
+    "cyclegan_turbo": "stimuli/male2female/08/cyclegan_turbo.jpg"
+   }
+  },
+  {
+   "trial_id": "male2female_09",
+   "task": "male2female",
+   "source": "man",
+   "target": "woman",
+   "input": "stimuli/male2female/09/input.jpg",
+   "pair": [
+    "cyclediff",
+    "cyclegan_turbo"
+   ],
+   "outputs": {
+    "cyclediff": "stimuli/male2female/09/cyclediff.jpg",
+    "cyclegan_turbo": "stimuli/male2female/09/cyclegan_turbo.jpg"
+   }
+  },
+  {
+   "trial_id": "male2female_10",
+   "task": "male2female",
+   "source": "man",
+   "target": "woman",
+   "input": "stimuli/male2female/10/input.jpg",
+   "pair": [
+    "cyclegan",
+    "cyclegan_turbo"
+   ],
+   "outputs": {
+    "cyclegan": "stimuli/male2female/10/cyclegan.jpg",
+    "cyclegan_turbo": "stimuli/male2female/10/cyclegan_turbo.jpg"
+   }
+  },
+  {
+   "trial_id": "male2female_11",
+   "task": "male2female",
+   "source": "man",
+   "target": "woman",
+   "input": "stimuli/male2female/11/input.jpg",
+   "pair": [
+    "cyclediff",
+    "cyclegan_turbo"
+   ],
+   "outputs": {
+    "cyclediff": "stimuli/male2female/11/cyclediff.jpg",
+    "cyclegan_turbo": "stimuli/male2female/11/cyclegan_turbo.jpg"
+   }
+  },
+  {
+   "trial_id": "male2female_12",
+   "task": "male2female",
+   "source": "man",
+   "target": "woman",
+   "input": "stimuli/male2female/12/input.jpg",
+   "pair": [
+    "cycledrift",
+    "cyclegan"
+   ],
+   "outputs": {
+    "cycledrift": "stimuli/male2female/12/cycledrift.jpg",
+    "cyclegan": "stimuli/male2female/12/cyclegan.jpg"
+   }
+  },
+  {
+   "trial_id": "male2female_13",
+   "task": "male2female",
+   "source": "man",
+   "target": "woman",
+   "input": "stimuli/male2female/13/input.jpg",
+   "pair": [
+    "cyclegan",
+    "cyclegan_turbo"
+   ],
+   "outputs": {
+    "cyclegan": "stimuli/male2female/13/cyclegan.jpg",
+    "cyclegan_turbo": "stimuli/male2female/13/cyclegan_turbo.jpg"
+   }
+  },
+  {
+   "trial_id": "male2female_14",
+   "task": "male2female",
+   "source": "man",
+   "target": "woman",
+   "input": "stimuli/male2female/14/input.jpg",
+   "pair": [
+    "cyclediff",
+    "cyclegan"
+   ],
+   "outputs": {
+    "cyclediff": "stimuli/male2female/14/cyclediff.jpg",
+    "cyclegan": "stimuli/male2female/14/cyclegan.jpg"
+   }
+  },
+  {
+   "trial_id": "male2female_15",
+   "task": "male2female",
+   "source": "man",
+   "target": "woman",
+   "input": "stimuli/male2female/15/input.jpg",
+   "pair": [
+    "cyclediff",
+    "cyclegan_turbo"
+   ],
+   "outputs": {
+    "cyclediff": "stimuli/male2female/15/cyclediff.jpg",
+    "cyclegan_turbo": "stimuli/male2female/15/cyclegan_turbo.jpg"
+   }
+  },
+  {
+   "trial_id": "male2female_16",
+   "task": "male2female",
+   "source": "man",
+   "target": "woman",
+   "input": "stimuli/male2female/16/input.jpg",
+   "pair": [
+    "cycledrift",
+    "cyclegan"
+   ],
+   "outputs": {
+    "cycledrift": "stimuli/male2female/16/cycledrift.jpg",
+    "cyclegan": "stimuli/male2female/16/cyclegan.jpg"
+   }
+  },
+  {
+   "trial_id": "male2female_17",
+   "task": "male2female",
+   "source": "man",
+   "target": "woman",
+   "input": "stimuli/male2female/17/input.jpg",
+   "pair": [
+    "cycledrift",
+    "cyclegan"
+   ],
+   "outputs": {
+    "cycledrift": "stimuli/male2female/17/cycledrift.jpg",
+    "cyclegan": "stimuli/male2female/17/cyclegan.jpg"
+   }
+  },
+  {
+   "trial_id": "female2male_00",
+   "task": "female2male",
+   "source": "woman",
+   "target": "man",
+   "input": "stimuli/female2male/00/input.jpg",
+   "pair": [
+    "cyclegan",
+    "cyclegan_turbo"
+   ],
+   "outputs": {
+    "cyclegan": "stimuli/female2male/00/cyclegan.jpg",
+    "cyclegan_turbo": "stimuli/female2male/00/cyclegan_turbo.jpg"
+   }
+  },
+  {
+   "trial_id": "female2male_01",
+   "task": "female2male",
+   "source": "woman",
+   "target": "man",
+   "input": "stimuli/female2male/01/input.jpg",
+   "pair": [
+    "cycledrift",
+    "cyclegan"
+   ],
+   "outputs": {
+    "cycledrift": "stimuli/female2male/01/cycledrift.jpg",
+    "cyclegan": "stimuli/female2male/01/cyclegan.jpg"
+   }
+  },
+  {
+   "trial_id": "female2male_02",
+   "task": "female2male",
+   "source": "woman",
+   "target": "man",
+   "input": "stimuli/female2male/02/input.jpg",
+   "pair": [
+    "cycledrift",
+    "cyclediff"
+   ],
+   "outputs": {
+    "cycledrift": "stimuli/female2male/02/cycledrift.jpg",
+    "cyclediff": "stimuli/female2male/02/cyclediff.jpg"
+   }
+  },
+  {
+   "trial_id": "female2male_03",
+   "task": "female2male",
+   "source": "woman",
+   "target": "man",
+   "input": "stimuli/female2male/03/input.jpg",
+   "pair": [
+    "cyclediff",
+    "cyclegan"
+   ],
+   "outputs": {
+    "cyclediff": "stimuli/female2male/03/cyclediff.jpg",
+    "cyclegan": "stimuli/female2male/03/cyclegan.jpg"
+   }
+  },
+  {
+   "trial_id": "female2male_04",
+   "task": "female2male",
+   "source": "woman",
+   "target": "man",
+   "input": "stimuli/female2male/04/input.jpg",
+   "pair": [
+    "cycledrift",
+    "cyclediff"
+   ],
+   "outputs": {
+    "cycledrift": "stimuli/female2male/04/cycledrift.jpg",
+    "cyclediff": "stimuli/female2male/04/cyclediff.jpg"
+   }
+  },
+  {
+   "trial_id": "female2male_05",
+   "task": "female2male",
+   "source": "woman",
+   "target": "man",
+   "input": "stimuli/female2male/05/input.jpg",
+   "pair": [
+    "cycledrift",
+    "cyclegan_turbo"
+   ],
+   "outputs": {
+    "cycledrift": "stimuli/female2male/05/cycledrift.jpg",
+    "cyclegan_turbo": "stimuli/female2male/05/cyclegan_turbo.jpg"
+   }
+  },
+  {
+   "trial_id": "female2male_06",
+   "task": "female2male",
+   "source": "woman",
+   "target": "man",
+   "input": "stimuli/female2male/06/input.jpg",
+   "pair": [
+    "cyclediff",
+    "cyclegan_turbo"
+   ],
+   "outputs": {
+    "cyclediff": "stimuli/female2male/06/cyclediff.jpg",
+    "cyclegan_turbo": "stimuli/female2male/06/cyclegan_turbo.jpg"
+   }
+  },
+  {
+   "trial_id": "female2male_07",
+   "task": "female2male",
+   "source": "woman",
+   "target": "man",
+   "input": "stimuli/female2male/07/input.jpg",
+   "pair": [
+    "cyclediff",
+    "cyclegan"
+   ],
+   "outputs": {
+    "cyclediff": "stimuli/female2male/07/cyclediff.jpg",
+    "cyclegan": "stimuli/female2male/07/cyclegan.jpg"
+   }
+  },
+  {
+   "trial_id": "female2male_08",
+   "task": "female2male",
+   "source": "woman",
+   "target": "man",
+   "input": "stimuli/female2male/08/input.jpg",
+   "pair": [
+    "cyclegan",
+    "cyclegan_turbo"
+   ],
+   "outputs": {
+    "cyclegan": "stimuli/female2male/08/cyclegan.jpg",
+    "cyclegan_turbo": "stimuli/female2male/08/cyclegan_turbo.jpg"
+   }
+  },
+  {
+   "trial_id": "female2male_09",
+   "task": "female2male",
+   "source": "woman",
+   "target": "man",
+   "input": "stimuli/female2male/09/input.jpg",
+   "pair": [
+    "cyclediff",
+    "cyclegan_turbo"
+   ],
+   "outputs": {
+    "cyclediff": "stimuli/female2male/09/cyclediff.jpg",
+    "cyclegan_turbo": "stimuli/female2male/09/cyclegan_turbo.jpg"
+   }
+  },
+  {
+   "trial_id": "female2male_10",
+   "task": "female2male",
+   "source": "woman",
+   "target": "man",
+   "input": "stimuli/female2male/10/input.jpg",
+   "pair": [
+    "cycledrift",
+    "cyclegan"
+   ],
+   "outputs": {
+    "cycledrift": "stimuli/female2male/10/cycledrift.jpg",
+    "cyclegan": "stimuli/female2male/10/cyclegan.jpg"
+   }
+  },
+  {
+   "trial_id": "female2male_11",
+   "task": "female2male",
+   "source": "woman",
+   "target": "man",
+   "input": "stimuli/female2male/11/input.jpg",
+   "pair": [
+    "cycledrift",
+    "cyclegan_turbo"
+   ],
+   "outputs": {
+    "cycledrift": "stimuli/female2male/11/cycledrift.jpg",
+    "cyclegan_turbo": "stimuli/female2male/11/cyclegan_turbo.jpg"
+   }
+  },
+  {
+   "trial_id": "female2male_12",
+   "task": "female2male",
+   "source": "woman",
+   "target": "man",
+   "input": "stimuli/female2male/12/input.jpg",
+   "pair": [
+    "cyclegan",
+    "cyclegan_turbo"
+   ],
+   "outputs": {
+    "cyclegan": "stimuli/female2male/12/cyclegan.jpg",
+    "cyclegan_turbo": "stimuli/female2male/12/cyclegan_turbo.jpg"
+   }
+  },
+  {
+   "trial_id": "female2male_13",
+   "task": "female2male",
+   "source": "woman",
+   "target": "man",
+   "input": "stimuli/female2male/13/input.jpg",
+   "pair": [
+    "cycledrift",
+    "cyclediff"
+   ],
+   "outputs": {
+    "cycledrift": "stimuli/female2male/13/cycledrift.jpg",
+    "cyclediff": "stimuli/female2male/13/cyclediff.jpg"
+   }
+  },
+  {
+   "trial_id": "female2male_14",
+   "task": "female2male",
+   "source": "woman",
+   "target": "man",
+   "input": "stimuli/female2male/14/input.jpg",
+   "pair": [
+    "cyclediff",
+    "cyclegan"
+   ],
+   "outputs": {
+    "cyclediff": "stimuli/female2male/14/cyclediff.jpg",
+    "cyclegan": "stimuli/female2male/14/cyclegan.jpg"
+   }
+  },
+  {
+   "trial_id": "female2male_15",
+   "task": "female2male",
+   "source": "woman",
+   "target": "man",
+   "input": "stimuli/female2male/15/input.jpg",
+   "pair": [
+    "cycledrift",
+    "cyclegan"
+   ],
+   "outputs": {
+    "cycledrift": "stimuli/female2male/15/cycledrift.jpg",
+    "cyclegan": "stimuli/female2male/15/cyclegan.jpg"
+   }
+  },
+  {
+   "trial_id": "female2male_16",
+   "task": "female2male",
+   "source": "woman",
+   "target": "man",
+   "input": "stimuli/female2male/16/input.jpg",
+   "pair": [
+    "cyclediff",
+    "cyclegan_turbo"
+   ],
+   "outputs": {
+    "cyclediff": "stimuli/female2male/16/cyclediff.jpg",
+    "cyclegan_turbo": "stimuli/female2male/16/cyclegan_turbo.jpg"
+   }
+  },
+  {
+   "trial_id": "female2male_17",
+   "task": "female2male",
+   "source": "woman",
+   "target": "man",
+   "input": "stimuli/female2male/17/input.jpg",
+   "pair": [
+    "cycledrift",
+    "cyclegan_turbo"
+   ],
+   "outputs": {
+    "cycledrift": "stimuli/female2male/17/cycledrift.jpg",
+    "cyclegan_turbo": "stimuli/female2male/17/cyclegan_turbo.jpg"
+   }
+  }
+ ]
+}

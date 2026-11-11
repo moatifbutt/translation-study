@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Image Translation Study</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- 1. welcome: consent + about you in one step -->
+<main class="page" id="p-welcome">
+  <div class="sheet">
+    <h1>Perceptual evaluation of image-to-image translation</h1>
+    <p class="lead">Unpaired image-to-image translation methods map an image from a source domain to a
+      target domain while preserving its underlying structure. This study evaluates such methods on three
+      domain pairs (cat and dog, dog and wild animal, male and female faces) in both directions.
+      In each trial you are shown a source image together with two translations produced by different
+      methods. Please select the translation that is more <b>realistic</b> as an image of the target domain
+      and that better <b>preserves the pose, composition and background</b> of the source image.</p>
+
+    <ul class="facts">
+      <li><strong id="n-total">108</strong><span>quick choices</span></li>
+      <li><strong>~10</strong><span>minutes</span></li>
+      <li><strong>A or B</strong><span>per question</span></li>
+    </ul>
+
+    <div id="resume-box" class="banner" hidden>
+      <span>You have an unfinished session in this browser.</span>
+      <button id="btn-resume" class="btn small">Resume</button>
+      <button id="btn-restart" class="btn small ghost">Start over</button>
+    </div>
+    <p id="narrow-warning" class="banner warn" hidden>This study works best on a laptop or desktop screen.</p>
+
+    <div class="field">
+      <label for="pid">Name, initials or the code you received</label>
+      <input id="pid" type="text" autocomplete="off" maxlength="40" placeholder="e.g. JD or P07">
+    </div>
+    <div class="field">
+      <span class="label">How familiar are you with AI image generation?</span>
+      <div class="seg" id="expertise">
+        <button type="button" data-v="none">Not at all</button>
+        <button type="button" data-v="some">A little</button>
+        <button type="button" data-v="expert">I work on it</button>
+      </div>
+    </div>
+
+    <details class="fine">
+      <summary>What we record</summary>
+      <p>The name or code you type, each choice you make, how long each choice took, and your
+        screen size and browser. Nothing else. Results are used only for a research paper, and you can
+        stop at any moment by closing this tab.</p>
+    </details>
+    <label class="check"><input type="checkbox" id="consent"> I have read the above and agree to take part.</label>
+    <button id="btn-welcome" class="btn" disabled>Continue</button>
+    <p id="contact" class="muted"></p>
+  </div>
+</main>
+
+<!-- 2. guide -->
+<main class="page" id="p-guide" hidden>
+  <div class="sheet wide">
+    <p class="eyebrow">Before you start</p>
+    <h2>How each question works</h2>
+    <div class="guide">
+      <div class="mock" aria-hidden="true">
+        <div class="mock-q">Which is the better <b>dog</b>?</div>
+        <div class="mock-row"><div class="mock-opt">A</div><div class="mock-in">source<br>cat</div><div class="mock-opt">B</div></div>
+      </div>
+      <ol class="steps">
+        <li><b>In the middle</b> is the real source photo.</li>
+        <li><b>Left and right</b> are two results, A and B, that turn it into what the question asks for.</li>
+        <li><b>Choose the better one.</b> A good result looks like a natural photo and keeps the
+          pose, framing and background of the source.</li>
+        <li>Press <kbd>&larr;</kbd> for A or <kbd>&rarr;</kbd> for B, or click. You cannot go back,
+          so trust your first impression when they look alike.</li>
+      </ol>
+    </div>
+    <div class="loader"><div id="load-bar"></div></div>
+    <p id="load-text" class="muted">Preparing images&hellip;</p>
+    <label class="check"><input type="checkbox" id="fs" checked> Switch to full screen</label>
+    <button id="btn-start" class="btn" disabled>Start</button>
+  </div>
+</main>
+
+<!-- 3. trials -->
+<main class="stage" id="p-trial" hidden>
+  <header class="bar">
+    <span class="brand">Image translation study</span>
+    <span id="counter" class="counter"></span>
+    <div class="line"><div id="progress"></div></div>
+  </header>
+  <div class="arena">
+    <h2 id="question"></h2>
+    <div class="choices">
+      <button id="opt-left" class="choice" type="button">
+        <img id="img-left" alt="option A">
+        <span class="tag"><kbd>&larr;</kbd> A</span>
+      </button>
+      <figure class="input">
+        <img id="img-input" alt="source image">
+        <figcaption>source</figcaption>
+      </figure>
+      <button id="opt-right" class="choice" type="button">
+        <img id="img-right" alt="option B">
+        <span class="tag">B <kbd>&rarr;</kbd></span>
+      </button>
+    </div>
+  </div>
+</main>
+
+<!-- 4. done -->
+<main class="page" id="p-done" hidden>
+  <div class="sheet center">
+    <div class="tick" aria-hidden="true">&#10003;</div>
+    <h2>All done, thank you!</h2>
+    <p id="upload-status" class="lead"></p>
+    <button id="btn-submit" class="btn" hidden>Send again</button>
+    <div id="download-box" hidden>
+      <p class="muted">If sending did not work, please download your answers and email the file to us.</p>
+      <button id="btn-download" class="btn ghost">Download my answers (CSV)</button>
+    </div>
+  </div>
+</main>
+
+<script src="config.js"></script>
+<script src="design.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
